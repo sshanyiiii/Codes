@@ -1,7 +1,7 @@
 # 2024.6.10
 
 dir="/home4/ssyi/Mouse_Placenta/Public_data/Gao_WGBS_GSE108711"
-###################################0.raw
+##################################################### 0.raw
 mkdir 0.raw
 cd 0.raw
 cat SRA_Acc_List.txt | while read id;     
