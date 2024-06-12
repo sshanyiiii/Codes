@@ -42,7 +42,7 @@ multiqc -f $TF_RNA_dir/2.trim_galore -o $TF_RNA_dir/2.trim_galore -n clean_multi
 
 ##################################################### 3.hisat2
 mkdir 3.hisat2
-hisat2_Index=/share/hisat2_index/new_index
+hisat2_Index=/home/share/hisat2_index/new_index
 
 for i in $TF_RNA_dir/2.trim_galore/*.R1_val_1.fq.gz
 do
