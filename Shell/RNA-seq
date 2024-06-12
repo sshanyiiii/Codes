@@ -3,7 +3,7 @@
 TF_RNA_dir="/home1/ssyi/ExtraEmbryo/20230606_RNA-seq"
 
 ##################################################### 0.raw
-mkdir 0.raw
+mkdir 0.0.raw
 nohup sh /home1/ssyi/codes/download_obs_data.sh -p obs://tongjiuniversity/20230531/ -d 20230606 -n HYX &> 20230606_download_obs_data.log &
 
 mv HYX-0524*/*.fastq.gz ./
